@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    basePath: process.env.REPOSITORY_NAME,
+    distDir: 'out',
+    basePath: '/MrMirfan',
     images: {
         unoptimized: true,
       },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
