@@ -21,9 +21,9 @@ export default function RootLayout({
       
         {/* Header */}
         <header className="bg-black h-14 text-white flex items-center">
-          <Link href="index.html" className="w-9/12 m-5 italic text-3xl ">MrMI</Link>
+          <Link href="." className="w-9/12 m-5 italic text-3xl ">MrMI</Link>
           <div>
-            <Link href="About.html" className="overline decoration-double decoration-white">About</Link>
+            <Link href="about" className="overline decoration-double decoration-white">About</Link>
           </div>
         </header>
 

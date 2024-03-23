@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Profile } from "./profile";
-import Blog from "./blog";
+import { Profile } from "./components/profile";
+import Blog from "./components/blog";
 
 export default function Home() {
   return (
