@@ -15,7 +15,7 @@ export default function Home() {
           {/* Container: Profile */}
           <div className="md:fixed right-0 mx-3 w-full md:w-3/12 border-8 border-white rounded-3xl flex flex-col items-center gap-y-2 p-5 text-center order-1 md:order-2">
             <Image
-              src="/profile/passport.avif"
+              src="./profile/passport.avif"
               className="rounded-full my-2 mix-blend-darken"
               width={128}
               height={128}
