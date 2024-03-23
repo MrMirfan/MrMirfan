@@ -23,7 +23,7 @@ export default function Home() {
             />
             <h2 className="font-extrabold text-3xl font-mono text-yellow-700">Mohammed Irfan</h2>
             <h3 className="text-lg font-bold font-['Open_Sans']">Software Engineer</h3>
-            <h1 className="italic font-bold border-t-8 border-t-black">I've been with you for</h1>
+            <h1 className="italic font-bold border-t-8 border-t-black">I&apos;ve been with you for</h1>
             <h2 id="bdayrem" className="italic">31/05</h2>
             <h1 className="italic font-bold border-t-8 border-t-black">Reach Me</h1>
             <h2>
