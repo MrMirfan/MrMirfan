@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: "export",
-    basePath: "/MrMirfan",
+    basePath: "/MrMirfan",  // Comment to Work Locally 
     images: {
         unoptimized: true,
     },
