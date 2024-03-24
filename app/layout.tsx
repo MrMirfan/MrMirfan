@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
       
         {/* Header */}
-        <header className="bg-black text-white flex flex-col md:flex-row items-center">
+        <header className="p-2 md:p-0 bg-black text-white flex flex-col md:flex-row items-center">
           <a href="./docs/Mohammed_Irfan_Resume.pdf" className="inline-flex w-9/12 m-5 italic text-3xl justify-center md:justify-normal ">
             MrMI
             <span className="relative flex h-3 w-3">

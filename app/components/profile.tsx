@@ -74,7 +74,7 @@ export function Profile() {
           href="https://github.com/MrMirfan/"
           target="_blank">
           <Image
-            src="./images/social/Github.png"
+            src="./images/social/Github.svg"
             width={30}
             height={30}
             alt="Github" />
