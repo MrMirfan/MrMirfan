@@ -4,7 +4,7 @@ import { time } from "console";
 import Image from "next/image"
 import { useEffect, useState } from "react"
 
-// Card Profile 
+// million-ignore
 export function Profile() {
   const [timeDiff, setTimeDiff] = useState(0);
 
