@@ -1,0 +1,18 @@
+Roadmap
+___________
+
+- - Telemetry - 
+
+Goal:
+
+To-Do
+___________
+
+-
+
+Learn
+___________
+
+- Typescript
+- React
+- NextJS

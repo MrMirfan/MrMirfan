@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     description: "I need a Job",
 };
 
-export default function About() {
+export default function Careers() {
     return(
 
         <main>

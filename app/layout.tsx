@@ -30,12 +30,12 @@ export default function RootLayout({
           </a>
           <div className="flex flex-col md:flex-row gap-3 my-3 md:my-0">
             <Link href="." className="hover:px-5 hover:bg-slate-200 hover:rounded-full hover:text-black hover:text-lg hover:after:content-['🏡']">Home</Link>
-            <Link href="about" className="hover:px-5 hover:bg-slate-200 hover:rounded-full hover:text-black hover:text-lg hover:after:content-['😁']">About</Link>
+            <Link href="careers" className="hover:px-5 hover:bg-slate-200 hover:rounded-full hover:text-black hover:text-lg hover:after:content-['😁']">Careers</Link>
+            <Link href="projects" className="hover:px-5 hover:bg-slate-200 hover:rounded-full hover:text-black hover:text-lg hover:after:content-['🏗️']">Projects</Link>
           </div>
         </header>
 
         {children}
-      
       </body>
     </html>
   );
