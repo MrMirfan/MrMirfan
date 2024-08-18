@@ -1,3 +1,5 @@
+import { GithubResponses } from "../_models/githubResponse";
+
 const headers = {
   Accept: "application/vnd.github+json",
   Authorization: "Bearer " + process.env.NEXT_PUBLIC_GITHUB_TOKEN,
@@ -9,7 +11,7 @@ const headers = {
  *
  * @returns {Promise<object[]>} A promise that resolves to an array of project objects.
  */
-export async function fetchGithubProjects(): Promise<object[]> {
+export async function fetchGithubProjects(): Promise<GithubResponses> {
   try {
     const response = await fetch(
       "https://api.github.com/users/MrMirfan/repos",

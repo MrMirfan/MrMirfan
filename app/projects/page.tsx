@@ -3,12 +3,16 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { fetchGithubProjects } from "../_utils/get_Projects";
+import { GithubResponses } from "../_models/githubResponse";
 
 export default function Projects() {
-  const [projects, setProjects] = useState<object[]>([]);
+  const [projects, setProjects] = useState<GithubResponses>([]);
 
   useEffect(() => {
-    fetchGithubProjects().then((data) => setProjects(data));
+    fetchGithubProjects().then((data) => {
+      console.log(JSON.stringify(data));
+      setProjects(data);
+    });
   }, []);
 
   return (
